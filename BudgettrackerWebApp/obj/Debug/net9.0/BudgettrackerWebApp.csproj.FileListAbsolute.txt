@@ -21,7 +21,6 @@ G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\scopedcss\bundle\BudgettrackerWebApp.styles.css
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\scopedcss\projectbundle\BudgettrackerWebApp.bundle.scp.css
-G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\compressed\3c6b42sq2r-b9sayid5wm.gz
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\compressed\84w8thn6rw-61n19gt1b8.gz
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\compressed\4zcwonhhcv-xtxxf3hu2r.gz
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\compressed\kk5ur5jt0z-bqjiyaj88i.gz
@@ -94,3 +93,4 @@ G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\BudgettrackerWebApp.pdb
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\BudgettrackerWebApp.genruntimeconfig.cache
 G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\ref\BudgettrackerWebApp.dll
+G:\My Drive\Coding\Git Clones\BudgetTrackerWebApp\BudgettrackerWebApp\obj\Debug\net9.0\compressed\3c6b42sq2r-jkjy7so65c.gz
