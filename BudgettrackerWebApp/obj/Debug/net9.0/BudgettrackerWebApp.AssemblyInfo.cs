@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BudgettrackerWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b51d41076a5204007871431d9f94050de926b96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4cc20ae0c700ef45bd877eaf4e6bde3289d07d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BudgettrackerWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BudgettrackerWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

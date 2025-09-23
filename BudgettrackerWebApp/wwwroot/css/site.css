@@ -1,6 +1,8 @@
 html {
   font-size: 14px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Fira Mono', 'JetBrains Mono', 'Courier New', Courier, monospace;
+  background: #b39ddb;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -20,6 +22,9 @@ html {
 
 body {
   margin-bottom: 60px;
+  background: #b39ddb;
+  color: #fff;
+  font-family: 'Fira Mono', 'JetBrains Mono', 'Courier New', Courier, monospace;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -35,7 +40,7 @@ h1 {
   font-size: 50px;
   font-weight: 500;
   line-height: 1.2;
-  color: rgb(109, 0, 172);
+  color: #fff;
 }
 
 form {

@@ -47,16 +47,16 @@
 
 <div class="mb-3">
     <strong>Total spent:</strong> @total.ToString("C")
-    @if (Model.CurrentBudget is not null)
+    @if (Model.CurrentBudget is not null && remaining.HasValue)
     {
         <span class="ms-3"><strong>Remaining:</strong>
-            @if (remaining.HasValue && remaining.Value >= 0)
+            @if (remaining.Value >= 0)
             {
                 <span class="text-success">@remaining.Value.ToString("C")</span>
             }
             else
             {
-                <span class="text-danger">Over budget by @Math.Abs(remaining ?? 0).ToString("C")</span>
+                <span class="text-danger">Over budget by @Math.Abs(remaining.Value).ToString("C")</span>
             }
         </span>
     }
