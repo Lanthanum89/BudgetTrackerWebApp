@@ -9,10 +9,10 @@ namespace BudgettrackerWebApp.Pages
     {
         // Simple in-memory store (shared across requests; not for production).
         private static readonly List<Expense> _store = new();
-        private static decimal? _budget;
 
     // Exposed to the Razor page.
     public IReadOnlyList<Expense> Expenses => _store;
+    private static decimal? _budget;
     public decimal? CurrentBudget => _budget;
 
         // These names match the form input 'name' attributes.
@@ -22,10 +22,11 @@ namespace BudgettrackerWebApp.Pages
         [BindProperty]
         public decimal Amount { get; set; }
 
+
     [BindProperty]
     public decimal Budget { get; set; }
 
-        private readonly ILogger<IndexModel> _logger;
+    private readonly ILogger<IndexModel> _logger;
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -35,6 +36,21 @@ namespace BudgettrackerWebApp.Pages
         public void OnGet()
         {
             // No-op; Expenses is read-only wrapper over _store.
+        }
+
+        public IActionResult OnPostSetBudget()
+        {
+            if (!ModelState.IsValid)
+                return Page();
+
+            if (Budget < 0)
+            {
+                ModelState.AddModelError(nameof(Budget), "Budget must be zero or greater.");
+                return Page();
+            }
+
+            _budget = Budget;
+            return RedirectToPage();
         }
 
         public IActionResult OnPostAddExpense()
@@ -50,21 +66,6 @@ namespace BudgettrackerWebApp.Pages
             });
 
             // PRG pattern to avoid duplicate posts on refresh.
-            return RedirectToPage();
-        }
-
-        public IActionResult OnPostSetBudget()
-        {
-            if (!ModelState.IsValid)
-                return Page();
-
-            if (Budget < 0)
-            {
-                ModelState.AddModelError(nameof(Budget), "Budget must be zero or greater.");
-                return Page();
-            }
-
-            _budget = Budget;
             return RedirectToPage();
         }
     }
