@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 @media (min-width: 768px) {
@@ -28,4 +29,15 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgb(109, 0, 172);
+}
+
+form {
+  margin-bottom: 20px;
 }
